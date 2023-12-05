@@ -61,6 +61,6 @@ function displayPet(pet) {
     listItem.textContent += " (Questo padrone ha un altro animale)";
   }
 
-  // Attach the pet object to the list item for comparison in the future
+  
   listItem.petObject = pet;
 }
